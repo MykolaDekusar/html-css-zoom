@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+main {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 5px;
+}
+
+.small-col {
+    width: calc(100% / 8);
+    height:120px;
+    background-color: blueviolet;
+}
