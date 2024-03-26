@@ -107,7 +107,7 @@ footer {
     display: flex;
     align-items: center;
     left: 0;
-    bottom: 0;
+    bottom: 3px;
     background-color: rgba(0, 0, 0, 0.372);
     padding: 3px
 }
@@ -131,7 +131,7 @@ footer {
 }
 
 p {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .padding-y-10 {
