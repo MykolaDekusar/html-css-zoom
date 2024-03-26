@@ -31,7 +31,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px 5px;
+    gap: 15px 10px;
 }
 
 .small-col img{
@@ -88,10 +88,6 @@ footer {
     text-align: center;
 }
 
-.align-right {
-    text-align: right;
-}
-
 /* UTILITY*/
 
 .w-700 {
@@ -109,7 +105,7 @@ footer {
     left: 0;
     bottom: 3px;
     background-color: rgba(0, 0, 0, 0.372);
-    padding: 3px
+    padding: 5px
 }
 
 .left-padding {
@@ -145,4 +141,8 @@ p {
     color:red;
     padding: 24px;
     background-color: lightgray;
+}
+
+.green-color {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(1720%) hue-rotate(96deg) brightness(94%) contrast(108%);
 }
