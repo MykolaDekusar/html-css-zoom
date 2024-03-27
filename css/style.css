@@ -6,15 +6,11 @@
     font-family: 'Arial', sans-serif;
 }
 
-body {
-    overflow: hidden;
-}
-
 main {
     background-color: black;
     height: 100vh;
-    width: 100vw;
-    
+    width: 100vw; 
+    overflow-y: auto;
 }
 
 footer {
@@ -118,7 +114,7 @@ footer {
 .container-top-right {
     display: flex;
     margin: 0 5px 0 5px;
-    background-color: rgba(128, 128, 128, 0.24);
+    background-color: rgb(128, 128, 128);
 }
 
 .text-size-15px{
